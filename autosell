@@ -13,9 +13,6 @@ getgenv().Settings = {
                 ["2024 Gargantuan Christmas Present"] = {Class = "Lootbox", Price = "0"},
             },
 
-            
-            ["All Huges"] = {Class = "Pet", Price = "80%", DetectManipulation = true, AllTypes = true},
-            ["Rainbow All Huges"] = {Class = "Pet", Price = 20000000},
             ["All Titanics"] = {Class = "Pet", Price = "50%", UseCosmicValues = true, AllTypes = true},
 
         },
