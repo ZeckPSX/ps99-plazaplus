@@ -13,7 +13,6 @@ getgenv().Settings = {
                 ["2024 Gargantuan Christmas Present"] = {Class = "Lootbox", Price = "125000000"},
             },
 
-            ["All Titanics"] = {Class = "Pet", Price = "50%", UseCosmicValues = true, AllTypes = true},
 
         },
         Serverhop = {
