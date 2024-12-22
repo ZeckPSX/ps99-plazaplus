@@ -7,19 +7,13 @@ getgenv().Settings = {
             SearchTerminal = {
                 [[ Terminal doesn't support custom keywords like "All Huges". ]],
 
-                ["Mini Chest"] = {Class = "Misc", Price = "2%"},
-                ["Coins 5"] = {Class = "Potion", Price = 1},
-                ["Shiny Apple"] = {Class = "Fruit", Price = "+5%"},
+                ["2024 Medium Christmas Present"] = {Class = "Lootbox", Price = "400000"},
+                ["2024 X-Large Christmas Present"] = {Class = "Lootbox", Price = "10000000"},
+                ["2024 Large Christmas Present"] = {Class = "Lootbox", Price = "+1%"},
+                ["2024 Gargantuan Christmas Present"] = {Class = "Lootbox", Price = "0"},
             },
 
-            
-            ["All Huges"] = {Class = "Pet", Price = "80%", DetectManipulation = true, AllTypes = true},
-            ["Rainbow All Huges"] = {Class = "Pet", Price = 20000000},
-            ["All Titanics"] = {Class = "Pet", Price = "30%", UseCosmicValues = true, AllTypes = true},
-            ["All Items"] = {Class = "Misc", Price = "20%", AllTiers = true},
-            ["All Exclusives"] = {Class = "Pet", Price = 500000},
-            ["Huge Fancy Axolotl"] = {Class = "Pet", Price = "+10%"},
-            ["Lightning 1"] = {Class = "Charm", Price = "+2%"},
+            ["All Exclusives"] = {Class = "Pet", Price = 100000},
         },
         Serverhop = {
             ["Switch Servers"] = true,
@@ -30,22 +24,22 @@ getgenv().Settings = {
             ["Save # Servers"] = 10,
         },
         Webhook = {
-            ["URL"] = "",
+            ["URL"] = "https://discord.com/api/webhooks/1258443803212386365/9Ux5HflAFwvgYmoWIuJEFQQJdwshy_H51x0Juy9cMWmR1LPwv4V3fZY4xuBxGN3dVBnD",
             ["Send Embeds"] = true,
-            ["Remove Username"] = true,
+            ["Remove Username"] = false,
             ["Ping on Huges 'n Titanics"] = true,
-            ["Global Snipes"] = true,
+            ["Global Snipes"] = false,
         },
         StopParams = {
             ["Limits Reached"] = false,
-            ["Diamonds Hit: 250k"] = true,
+            ["Diamonds Hit: 250k"] = false,
             ["60 Minutes"] = false,
-            ["Switch To Selling"] = true,
+            ["Switch To Selling"] = false,
         },
     },
 
     Seller = {
-        Active = true,
+        Active = false,
         Items = {
             ["All Huges"] = {Class = "Pet", Price = "0%"},
 
