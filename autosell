@@ -1,7 +1,7 @@
 script_key = "BGQtpenqIvNLLKvyjHgShuLreUJfEIok"
 getgenv().Settings = {
     Sniper = {
-        Active = false,
+        Active = true,
         Items = {
             --// Example Settings showcasing features.
             SearchTerminal = {
@@ -13,7 +13,11 @@ getgenv().Settings = {
                 ["2024 Gargantuan Christmas Present"] = {Class = "Lootbox", Price = "0"},
             },
 
-            ["All Exclusives"] = {Class = "Pet", Price = 100000},
+            
+            ["All Huges"] = {Class = "Pet", Price = "80%", DetectManipulation = true, AllTypes = true},
+            ["Rainbow All Huges"] = {Class = "Pet", Price = 20000000},
+            ["All Titanics"] = {Class = "Pet", Price = "50%", UseCosmicValues = true, AllTypes = true},
+
         },
         Serverhop = {
             ["Switch Servers"] = true,
