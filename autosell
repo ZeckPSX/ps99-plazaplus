@@ -8,9 +8,9 @@ getgenv().Settings = {
                 [[ Terminal doesn't support custom keywords like "All Huges". ]],
 
                 ["2024 Medium Christmas Present"] = {Class = "Lootbox", Price = "120000"},
-                ["2024 X-Large Christmas Present"] = {Class = "Lootbox", Price = "3000000"},
+                ["2024 X-Large Christmas Present"] = {Class = "Lootbox", Price = "3500000"},
                 ["2024 Large Christmas Present"] = {Class = "Lootbox", Price = "600000"},
-                ["2024 Gargantuan Christmas Present"] = {Class = "Lootbox", Price = "30000000"},
+                ["2024 Gargantuan Christmas Present"] = {Class = "Lootbox", Price = "35000000"},
                 ["2024 Small Christmas Present"] = {Class = "Lootbox", Price = "20000"},
             },
 
