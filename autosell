@@ -25,7 +25,7 @@ getgenv().Settings = {
             ["Save # Servers"] = 10,
         },
         Webhook = {
-            ["URL"] = "https://discord.com/api/webhooks/1258443803212386365/9Ux5HflAFwvgYmoWIuJEFQQJdwshy_H51x0Juy9cMWmR1LPwv4V3fZY4xuBxGN3dVBnD",
+            ["URL"] = "https://discord.com/api/webhooks/1258443800863576144/qMDrFR97dB5cRPPQat2L-o_H9fupdKPLJ9UeC1JksN-l28BPyeOg-C6QQ37FGBaP_Q2C",
             ["Send Embeds"] = true,
             ["Remove Username"] = false,
             ["Ping on Huges 'n Titanics"] = true,
