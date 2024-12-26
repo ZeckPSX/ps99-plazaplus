@@ -10,7 +10,7 @@ getgenv().Settings = {
                 ["2024 Medium Christmas Present"] = {Class = "Lootbox", Price = "110000"},
                 ["2024 X-Large Christmas Present"] = {Class = "Lootbox", Price = "3100000"},
                 ["2024 Large Christmas Present"] = {Class = "Lootbox", Price = "560000"},
-                ["2024 Gargantuan Christmas Present"] = {Class = "Lootbox", Price = "35000000"},
+                ["2024 Gargantuan Christmas Present"] = {Class = "Lootbox", Price = "31000000"},
                 ["2024 Small Christmas Present"] = {Class = "Lootbox", Price = "20000"},
             },
 
