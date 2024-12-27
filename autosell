@@ -1,7 +1,7 @@
 script_key = "rNNyOWSifGZBxuWQGtWEcwuARXhvdUxH"
 getgenv().Settings = {
     Sniper = {
-        Active = true,
+        Active = false,
         Items = {
             --// Example Settings showcasing features.
             SearchTerminal = {
@@ -40,9 +40,10 @@ getgenv().Settings = {
     },
 
     Seller = {
-        Active = false,
+        Active = true,
         Items = {
-            ["All Huges"] = {Class = "Pet", Price = "0%"},
+                ["2024 Gargantuan Christmas Present"] = {Class = "Lootbox", Price = "55000000"},
+                ["2024 X-Large Christmas Present"] = {Class = "Lootbox", Price = "5500000"},
 
         },
         Serverhop = {
@@ -64,7 +65,7 @@ getgenv().Settings = {
         Other = {
             ["Auto Accept Mail"] = true,
             ["Always Try Adding Listings"] = true,
-            ["Never Join Friendslist"] = true,
+            ["Never Join Friendslist"] = false,
         },
     },
     
