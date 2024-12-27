@@ -42,8 +42,8 @@ getgenv().Settings = {
     Seller = {
         Active = true,
         Items = {
-                ["2024 Gargantuan Christmas Present"] = {Class = "Lootbox", Price = "55000000"},
-                ["2024 X-Large Christmas Present"] = {Class = "Lootbox", Price = "5500000"},
+                ["2024 Gargantuan Christmas Present"] = {Class = "Lootbox", Price = "50000000"},
+                ["2024 X-Large Christmas Present"] = {Class = "Lootbox", Price = "5000000"},
 
         },
         Serverhop = {
