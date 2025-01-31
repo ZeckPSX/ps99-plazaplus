@@ -2,73 +2,44 @@ script_key = "XgvcQbGiIoprWWVVINLOqkYZStyKNuWZ"
 getgenv().Settings = {
     Sniper = {
         Active = false,
-        Items = {
-            --// Example Settings showcasing features.
+        ["Items"] = {
             SearchTerminal = {
-                [[ Terminal doesn't support custom keywords like "All Huges". ]],
-
-                ["2024 Medium Christmas Present"] = {Class = "Lootbox", Price = "200000"},
-                ["2024 X-Large Christmas Present"] = {Class = "Lootbox", Price = "5000000"},
-                ["2024 Large Christmas Present"] = {Class = "Lootbox", Price = "1000000"},
-                ["2024 Gargantuan Christmas Present"] = {Class = "Lootbox", Price = "50000000"},
-                ["2024 Small Christmas Present"] = {Class = "Lootbox", Price = "40000"},
+                [[ Search Items via Trading Terminal, Custom Keywords NOT supported here. ]],
+                ["Nice Egg"] = {Price = "5%", InventoryLimit = 355},
+                ["Huge Night Terror Cat"] = {Price = "50%", UseCosmicValues = true},
             },
-
-
+            ["All Class: Misc"] = {Price = 5},
+            ["All Rarity: Celestial"] = {Price = "50%"},
+            ["Shiny Rainbow Broomstick Cat"] = {Price = "+2%"},
+            ["All Huges"] = {Price = "15m", DetectManipulation = true, AllTypes = true},
         },
-        Serverhop = {
-            ["Switch Servers"] = true,
-            ["Teleport Delay (s)"] = 3,
-            ["Add Pro Plaza Lobbies"] = false,
-            ["Constant Terminal Searching"] = true,
-            ["Terminal Searches per Item"] = 3,
-            ["Save # Servers"] = 10,
-        },
-        Webhook = {
-            ["URL"] = "https://discord.com/api/webhooks/1258443800863576144/qMDrFR97dB5cRPPQat2L-o_H9fupdKPLJ9UeC1JksN-l28BPyeOg-C6QQ37FGBaP_Q2C",
-            ["Send Embeds"] = true,
-            ["Remove Username"] = false,
-            ["Ping on Huges 'n Titanics"] = true,
-            ["Global Snipes"] = false,
-        },
-        StopParams = {
+        ["Switch Servers"] = {Active = true, SecondDelay = 7, OnlyPRO = false},
+        ["Webhook"] = {Active = true, URL = ""},
+        ["Kill Switch"] = {
             ["Limits Reached"] = false,
-            ["Diamonds Hit: 250k"] = false,
-            ["60 Minutes"] = false,
-            ["Switch To Selling"] = false,
+            ["Diamonds Hit: 25m"] = false,
+            ["60 Minutes Timer"] = false,
+            ["^^^ Switch To Selling"] = false,
         },
     },
 
     Seller = {
         Active = true,
-        Items = {
-                ["All Huges"] = {Price = "+5%", AllTypes = true},
+        ["Items"] = {
+            ["All Huges"] = {Price = "+10%", AllTypes = true},
 
-
         },
-        Serverhop = {
-            ["Switch Servers"] = true,
-            ["Teleport Delay (m)"] = 15,
-            ["Add Pro Plaza Lobbies"] = true,
-        },
-        Webhook = {
-            ["URL"] = "https://discord.com/api/webhooks/1247171969917648987/H3tW_C7Qkh4MXmG74bAPeC0yuYUfTw73_kib6tfSx2MJ0t_RX2zzzTTfLL_AYqAMYTbk",
-            ["Send Embeds"] = true,
-            ["Remove Username"] = false,
-        },
-        StopParams = {
-            ["Item Runout"] = false,
+        ["Switch Servers"] = {Active = true, MinuteDelay = 20, OnlyPRO = false},
+        ["Webhook"] = {Active = true, URL = "https://discord.com/api/webhooks/1247171969917648987/H3tW_C7Qkh4MXmG74bAPeC0yuYUfTw73_kib6tfSx2MJ0t_RX2zzzTTfLL_AYqAMYTbk"},
+        ["Kill Switch"] = {
+            ["Booth Runout"] = false,
             ["Diamonds Hit: 1b"] = false,
-            ["60 Minutes"] = false,
-            ["Switch To Sniping"] = false,
+            ["60 Minutes Timer"] = false,
+            ["^^^ Switch To Sniping"] = false,
         },
-        Other = {
-            ["Auto Accept Mail"] = false,
-            ["Always Try Adding Listings"] = true,
-            ["Never Join Friendslist"] = false,
-        },
+        ["Diamonds Sendout"] = {Active = false, Username = "jason061gt", Amount = "100b"},
     },
-    
+
     [[ Thank you for using System Exodus <3! ]]
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/60a293774110e918789cddc0e20be048.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b58d9c50c5ea74f255af40a8f735773.lua"))()
