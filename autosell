@@ -27,7 +27,7 @@ getgenv().Settings = {
         Active = true,
         ["Items"] = {
             ["All Huges"] = {Price = "-500000", AllTypes = true},
-            ["Hellfire Gift"] = {Class = "Lootbox", Price = 295000, Priority = true},
+            ["Hellfire Gift"] = {Class = "Lootbox", Price = 270000, Priority = true},
         },
         ["Switch Servers"] = {Active = true, MinuteDelay = 20, OnlyPRO = false},
         ["Webhook"] = {Active = true, URL = "https://discord.com/api/webhooks/1247171969917648987/H3tW_C7Qkh4MXmG74bAPeC0yuYUfTw73_kib6tfSx2MJ0t_RX2zzzTTfLL_AYqAMYTbk"},
