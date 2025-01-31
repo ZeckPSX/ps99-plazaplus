@@ -1,7 +1,7 @@
-script_key = "XgvcQbGiIoprWWVVINLOqkYZStyKNuWZ"
+script_key = "XgvcQbGiIoprWWVVINLOqkYZStyKNuWZ";
 getgenv().Settings = {
     Sniper = {
-        Active = false,
+        Active = true,
         ["Items"] = {
             SearchTerminal = {
                 [[ Search Items via Trading Terminal, Custom Keywords NOT supported here. ]],
@@ -24,21 +24,21 @@ getgenv().Settings = {
     },
 
     Seller = {
-        Active = true,
+        Active = false,
         ["Items"] = {
             ["All Huges"] = {Price = "+20%", AllTypes = true},
             ["Rainbow Cat"] = {Price = "1b", Amount = 5},
             ["Coins Potion 5"] = {Price = 5, Priority = true},
         },
         ["Switch Servers"] = {Active = true, MinuteDelay = 20, OnlyPRO = false},
-        ["Webhook"] = {Active = true, URL = "https://discord.com/api/webhooks/1245580308489961554/jrg1gFnCUSZJqCayag0uolfAhTZigz4nqwVA5cyyzQzWt0Vsg6rZtYJtTs8PSNBdvbe_"},
+        ["Webhook"] = {Active = true, URL = ""},
         ["Kill Switch"] = {
             ["Booth Runout"] = false,
             ["Diamonds Hit: 1b"] = false,
             ["60 Minutes Timer"] = false,
             ["^^^ Switch To Sniping"] = false,
         },
-        ["Diamonds Sendout"] = {Active = false, Username = "psxmaker", Amount = "100b"},
+        ["Diamonds Sendout"] = {Active = false, Username = "", Amount = "1b"},
     },
 
     [[ Thank you for using System Exodus <3! ]]
