@@ -27,6 +27,7 @@ getgenv().Settings = {
         Active = true,
         ["Items"] = {
             ["All Huges"] = {Price = "-1%", AllTypes = true},
+            ["Hellfire Gift"] = {Class = "Lootbox", Price = 0%},
 
         },
         ["Switch Servers"] = {Active = true, MinuteDelay = 20, OnlyPRO = false},
