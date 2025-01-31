@@ -1,4 +1,4 @@
-script_key = "rNNyOWSifGZBxuWQGtWEcwuARXhvdUxH"
+script_key = "XgvcQbGiIoprWWVVINLOqkYZStyKNuWZ"
 getgenv().Settings = {
     Sniper = {
         Active = false,
@@ -42,8 +42,8 @@ getgenv().Settings = {
     Seller = {
         Active = true,
         Items = {
-                ["2024 Gargantuan Christmas Present"] = {Class = "Lootbox", Price = "50000000"},
-                ["2024 X-Large Christmas Present"] = {Class = "Lootbox", Price = "5000000"},
+                ["All Huges"] = {Price = "+5%", AllTypes = true},
+
 
         },
         Serverhop = {
@@ -52,7 +52,7 @@ getgenv().Settings = {
             ["Add Pro Plaza Lobbies"] = true,
         },
         Webhook = {
-            ["URL"] = "https://discord.com/api/webhooks/1258443800863576144/qMDrFR97dB5cRPPQat2L-o_H9fupdKPLJ9UeC1JksN-l28BPyeOg-C6QQ37FGBaP_Q2C",
+            ["URL"] = "https://discord.com/api/webhooks/1247171969917648987/H3tW_C7Qkh4MXmG74bAPeC0yuYUfTw73_kib6tfSx2MJ0t_RX2zzzTTfLL_AYqAMYTbk",
             ["Send Embeds"] = true,
             ["Remove Username"] = false,
         },
