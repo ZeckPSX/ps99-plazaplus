@@ -28,9 +28,9 @@ getgenv().Settings = {
         ["Items"] = {
             ["All Huges"] = {Price = "-500000", AllTypes = true},
             ["Hellfire Gift"] = {Class = "Lootbox", Price = 270000, Priority = true},
-            ["Confetti Cannon"] = {Class = "Misc", Price = 3100000, Priority = true},
+            ["Confetti Cannon"] = {Class = "Misc", Price = 2500000, Priority = true},
             ["Lightning Cannon"] = {Class = "Misc", Price = 92000, Priority = true},
-            ["Cannon Corruption"] = {Class = "Consumable", Price = 3900000, Priority = true},
+            ["Cannon Corruption"] = {Class = "Consumable", Price = 3000000, Priority = true},
             ["Cannon Critical Booster"] = {Class = "Consumable", Price = 525000, Priority = true},
         },
         ["Switch Servers"] = {Active = true, MinuteDelay = 20, OnlyPRO = false},
