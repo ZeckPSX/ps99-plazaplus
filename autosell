@@ -6,16 +6,15 @@ getgenv().Settings = {
         ["Items"] = {
             SearchTerminal = {
                 [[ Search Items via Trading Terminal, Custom Keywords NOT supported here. ]],
-                ["Nice Egg"] = {Price = "5%", InventoryLimit = 355},
-                ["Huge Night Terror Cat"] = {Price = "50%", UseCosmicValues = true},
+                ["Hellfire Gift"] = {Price = "5%", InventoryLimit = 99999},
+                ["Cannon Speed Booster"] = {Price = "5%", InventoryLimit = 99999},
+                ["Cannon Damage Booster"] = {Price = "5%", InventoryLimit = 99999},
+                ["Cannon Luck Booster"] = {Price = "5%", InventoryLimit = 99999},
             },
-            ["All Class: Misc"] = {Price = 5},
-            ["All Rarity: Celestial"] = {Price = "50%"},
-            ["Shiny Rainbow Broomstick Cat"] = {Price = "+2%"},
-            ["All Huges"] = {Price = "15m", DetectManipulation = true, AllTypes = true},
+            ["All Huges"] = {Price = "10m", DetectManipulation = true, AllTypes = true},
         },
         ["Switch Servers"] = {Active = true, SecondDelay = 7, OnlyPRO = false},
-        ["Webhook"] = {Active = true, URL = ""},
+        ["Webhook"] = {Active = true, URL = "https://discord.com/api/webhooks/1247195572247466069/EocF41R2ufvxm6wL1fXXftn7om4hDDwYC4ZyRWlHbx00Qv7H6ZhjbfpOLoh4bu0S3lwm"},
         ["Kill Switch"] = {
             ["Limits Reached"] = false,
             ["Diamonds Hit: 25m"] = false,
