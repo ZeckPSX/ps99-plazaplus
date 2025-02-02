@@ -27,7 +27,7 @@ getgenv().Settings = {
     Seller = {
         Active = true,
         ["Items"] = {
-            ["All Huges"] = {Price = "-500000", AllTypes = true},
+            ["All Huges"] = {Price = "1%", AllTypes = true},
             ["Hellfire Gift"] = {Class = "Lootbox", Price = 270000, Priority = true},
             ["Confetti Cannon"] = {Class = "Misc", Price = "1%", Priority = true},
             ["Lightning Cannon"] = {Class = "Misc", Price = "1%", Priority = true},
