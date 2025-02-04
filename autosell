@@ -27,7 +27,7 @@ getgenv().Settings = {
         Active = true,
         ["Items"] = {
             ["All Huges"] = {Price = "1%", AllTypes = true},
-            ["Hellfire Gift"] = {Class = "Lootbox", Price = 290000, Priority = true},
+            ["Hellfire Gift"] = {Class = "Lootbox", Price = 298999, Priority = true},
             ["Hype Egg 2"] = {Class = "Lootbox", Price = "1%", Priority = true},
             ["Confetti Cannon"] = {Class = "Misc", Price = "+3%", Priority = true},
             ["Lightning Cannon"] = {Class = "Misc", Price = "+3%", Priority = true},
