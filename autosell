@@ -6,10 +6,11 @@ getgenv().Settings = {
         ["Items"] = {
             SearchTerminal = {
                 [[ Search Items via Trading Terminal, Custom Keywords NOT supported here. ]],
-                ["Hellfire Gift"] = {Price = "5%", InventoryLimit = 99999},
-                ["Cannon Speed Booster"] = {Price = "5%", InventoryLimit = 99999},
-                ["Cannon Damage Booster"] = {Price = "5%", InventoryLimit = 99999},
-                ["Cannon Luck Booster"] = {Price = "5%", InventoryLimit = 99999},
+                ["Hellfire Gift"] = {Price = "+1%", InventoryLimit = 99999},
+                ["Hellfire Core"] = {Price = "+1%", InventoryLimit = 99999},
+                ["Cannon Speed Booster"] = {Price = "0%", InventoryLimit = 99999},
+                ["Cannon Damage Booster"] = {Price = "0%", InventoryLimit = 99999},
+                ["Cannon Luck Booster"] = {Price = "0%", InventoryLimit = 99999},
             },
             ["All Huges"] = {Price = "10m", DetectManipulation = true, AllTypes = true},
         },
