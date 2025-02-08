@@ -7,14 +7,14 @@ getgenv().Settings = {
             SearchTerminal = {
                 [[ Search Items via Trading Terminal, Custom Keywords NOT supported here. ]],
                 ["Love Gift"] = {Price = 1200000, InventoryLimit = 99999},
-                ["Tower Stacking Booster"] = {Price = "+5%", InventoryLimit = 99999},
-                ["Tower Luck Booster"] = {Price = "+5%", InventoryLimit = 99999},
+                ["Tower Stacking Booster"] = {Price = 5000000, InventoryLimit = 99999},
+                ["Tower Luck Booster"] = {Price = 1000000, InventoryLimit = 99999},
 
             },
 
         },
         ["Switch Servers"] = {Active = true, SecondDelay = 7, OnlyPRO = false},
-        ["Webhook"] = {Active = true, URL = "https://discord.com/api/webhooks/1247195572247466069/EocF41R2ufvxm6wL1fXXftn7om4hDDwYC4ZyRWlHbx00Qv7H6ZhjbfpOLoh4bu0S3lwm"},
+        ["Webhook"] = {Active = true, URL = "https://discord.com/api/webhooks/1337927509278199913/xX7ABlUElTrLWXbtcHI-4WYe9bBTscJirNOxf4lM5fMaFG3L2LxL2vFHP3prci8oFO8L"},
         ["Kill Switch"] = {
             ["Limits Reached"] = false,
             ["Diamonds Hit: 25m"] = false,
