@@ -1,20 +1,19 @@
 script_key = "XgvcQbGiIoprWWVVINLOqkYZStyKNuWZ"
 getgenv().Settings = {
     Sniper = {
-        Active = false,
+        Active = true,
         ["Items"] = {
             SearchTerminal = {
                 [[ Search Items via Trading Terminal, Custom Keywords NOT supported here. ]],
-                ["Hellfire Gift"] = {Price = "+1%", InventoryLimit = 99999},
-                ["Hellfire Core"] = {Price = "+1%", InventoryLimit = 99999},
-                ["Cannon Speed Booster"] = {Price = "0%", InventoryLimit = 99999},
-                ["Cannon Damage Booster"] = {Price = "0%", InventoryLimit = 99999},
-                ["Cannon Luck Booster"] = {Price = "0%", InventoryLimit = 99999},
+                ["Love Gift"] = {Price = 1200000, InventoryLimit = 99999},
+                ["Tower Stacking Booster"] = {Price = 5000000, InventoryLimit = 99999},
+                ["Tower Luck Booster"] = {Price = 1000000", InventoryLimit = 99999},
+
             },
-            ["All Huges"] = {Price = "10m", DetectManipulation = true, AllTypes = true},
+
         },
         ["Switch Servers"] = {Active = true, SecondDelay = 7, OnlyPRO = false},
-        ["Webhook"] = {Active = true, URL = "https://discord.com/api/webhooks/1247195572247466069/EocF41R2ufvxm6wL1fXXftn7om4hDDwYC4ZyRWlHbx00Qv7H6ZhjbfpOLoh4bu0S3lwm"},
+        ["Webhook"] = {Active = true, URL = "https://discord.com/api/webhooks/1337919890853728348/8cfFFC80jO1Ej-TviX7XOrdciUiawFjc8ruPsZnYEjCz98mQoqbnPpxJ9mMg6cxudoGo"},
         ["Kill Switch"] = {
             ["Limits Reached"] = false,
             ["Diamonds Hit: 25m"] = false,
@@ -24,7 +23,7 @@ getgenv().Settings = {
     },
 
     Seller = {
-        Active = true,
+        Active = false,
         ["Items"] = {
             ["All Huges"] = {Price = "1%", AllTypes = true},
             ["Hellfire Gift"] = {Class = "Lootbox", Price = 95000, Priority = true},
