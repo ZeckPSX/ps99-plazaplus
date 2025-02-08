@@ -11,7 +11,7 @@ getgenv().Settings = {
                 ["Tower Luck Booster"] = {Price = "+5%", InventoryLimit = 99999},
 
             },
-            ["All Huges"] = {Price = "10m", DetectManipulation = true, AllTypes = true},
+
         },
         ["Switch Servers"] = {Active = true, SecondDelay = 7, OnlyPRO = false},
         ["Webhook"] = {Active = true, URL = "https://discord.com/api/webhooks/1247195572247466069/EocF41R2ufvxm6wL1fXXftn7om4hDDwYC4ZyRWlHbx00Qv7H6ZhjbfpOLoh4bu0S3lwm"},
