@@ -6,7 +6,7 @@ getgenv().Settings = {
         ["Items"] = {
             SearchTerminal = {
                 [[ Search Items via Trading Terminal, Custom Keywords NOT supported here. ]],
-                ["Love Gift"] = {Price = 1200000, InventoryLimit = 99999},
+                ["Love Gift"] = {Price = 1000000, InventoryLimit = 99999},
                 ["Tower Stacking Booster"] = {Price = 5000000, InventoryLimit = 99999},
                 ["Tower Luck Booster"] = {Price = 1000000, InventoryLimit = 99999},
 
