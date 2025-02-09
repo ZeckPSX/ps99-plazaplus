@@ -2,7 +2,7 @@
 script_key = "XgvcQbGiIoprWWVVINLOqkYZStyKNuWZ"
 getgenv().Settings = {
     Sniper = {
-        Active = true,
+        Active = false,
         ["Items"] = {
             SearchTerminal = {
                 [[ Search Items via Trading Terminal, Custom Keywords NOT supported here. ]],
@@ -24,18 +24,12 @@ getgenv().Settings = {
     },
 
     Seller = {
-        Active = false,
+        Active = true,
         ["Items"] = {
-            ["All Huges"] = {Price = "1%", AllTypes = true},
-            ["Hellfire Gift"] = {Class = "Lootbox", Price = 95000, Priority = true},
+            ["Hellfire Gift"] = {Class = "Lootbox", Price = 90000, Priority = true},
             ["Hype Egg 2"] = {Class = "Lootbox", Price = "1%", Priority = true},
-            ["Confetti Cannon"] = {Class = "Misc", Price = "1%", Priority = true},
-            ["Lightning Cannon"] = {Class = "Misc", Price = "1%", Priority = true},
-            ["Cannon Corruption"] = {Class = "Consumable", Price = 1100000, Priority = true},
-            ["Cannon Critical Booster"] = {Class = "Consumable", Price = 400000, Priority = true},
-            ["Cannon Luck Booster"] = {Class = "Consumable", Price = 400000, Priority = true},
-            ["Cannon Damage Booster"] = {Class = "Consumable", Price = 400000, Priority = true},
-            ["Cannon Speed Booster"] = {Class = "Potion", Price = 450000, Priority = true},
+            ["Tower Stacking Booster"] = {Class = "Consumable", Price = 11000000, Priority = true},
+            ["Tower Luck Booster"] = {Class = "Consumable", Price = 3000000, Priority = true},
         },
         ["Switch Servers"] = {Active = true, MinuteDelay = 20, OnlyPRO = false},
         ["Webhook"] = {Active = true, URL = "https://discord.com/api/webhooks/1247171969917648987/H3tW_C7Qkh4MXmG74bAPeC0yuYUfTw73_kib6tfSx2MJ0t_RX2zzzTTfLL_AYqAMYTbk"},
