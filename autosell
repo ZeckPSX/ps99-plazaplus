@@ -2,13 +2,13 @@
 script_key = "XgvcQbGiIoprWWVVINLOqkYZStyKNuWZ"
 getgenv().Settings = {
     Sniper = {
-        Active = false,
+        Active = true,
         ["Items"] = {
             SearchTerminal = {
                 [[ Search Items via Trading Terminal, Custom Keywords NOT supported here. ]],
-                ["Love Gift"] = {Price = 1000000, InventoryLimit = 99999},
+                ["Love Gift"] = {Price = 800000, InventoryLimit = 99999},
                 ["Tower Stacking Booster"] = {Price = 5000000, InventoryLimit = 99999},
-                ["Tower Luck Booster"] = {Price = 800000, InventoryLimit = 99999},
+                ["Tower Luck Booster"] = {Price = 500000, InventoryLimit = 99999},
 
             },
 
@@ -24,7 +24,7 @@ getgenv().Settings = {
     },
 
     Seller = {
-        Active = true,
+        Active = false,
         ["Items"] = {
             ["Hellfire Gift"] = {Class = "Lootbox", Price = 90000, Priority = true},
             ["Hype Egg 2"] = {Class = "Lootbox", Price = "1%", Priority = true},
