@@ -2,7 +2,7 @@
 script_key = "XgvcQbGiIoprWWVVINLOqkYZStyKNuWZ"
 getgenv().Settings = {
     Sniper = {
-        Active = true,
+        Active = false,
         ["Items"] = {
             SearchTerminal = {
                 [[ Search Items via Trading Terminal, Custom Keywords NOT supported here. ]],
@@ -24,7 +24,7 @@ getgenv().Settings = {
     },
 
     Seller = {
-        Active = false,
+        Active = true,
         ["Items"] = {
             ["Hellfire Gift"] = {Class = "Lootbox", Price = 90000, Priority = true},
             ["Hype Egg 2"] = {Class = "Lootbox", Price = "1%", Priority = true},
