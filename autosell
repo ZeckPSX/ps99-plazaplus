@@ -28,7 +28,7 @@ getgenv().Settings = {
         ["Items"] = {
             ["Hellfire Gift"] = {Class = "Lootbox", Price = 90000, Priority = true},
             ["Hype Egg 2"] = {Class = "Lootbox", Price = "1%", Priority = true},
-            ["Tower Stacking Booster"] = {Class = "Consumable", Price = 7500000, Priority = true},
+            ["Tower Stacking Booster"] = {Class = "Consumable", Price = 5000000, Priority = true},
             ["Tower Luck Booster"] = {Class = "Consumable", Price = 700000, Priority = true},
         },
         ["Switch Servers"] = {Active = true, MinuteDelay = 20, OnlyPRO = false},
