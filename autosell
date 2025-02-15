@@ -8,7 +8,7 @@ getgenv().Settings = {
                 ["Love Gift"] = {Price = 150000, InventoryLimit = 99999},
                 ["Tower Stacking Booster"] = {Price = 800000, InventoryLimit = 99999},
                 ["Tower Luck Booster"] = {Price = 200000, InventoryLimit = 99999},
-                ["All Huges"] = {Price = "16m", DetectManipulation = true, AllTypes = true},
+                ["All Huges"] = {Price = "19m", DetectManipulation = true, AllTypes = true},
                 ["Super Shiny Hunter"] = {Price = 1007961497, InventoryLimit = 99999},
                 ["Rainbow Eggs"] = {Price = 1234437764, InventoryLimit = 99999},
                 ["Breakable Mayhem"] = {Price = 950000000, InventoryLimit = 99999},
@@ -22,7 +22,7 @@ getgenv().Settings = {
             },
 
         },
-        ["Switch Servers"] = {Active = true, SecondDelay = 50, OnlyPRO = false},
+        ["Switch Servers"] = {Active = true, SecondDelay = 10, OnlyPRO = false},
         ["Webhook"] = {Active = true, URL = "https://discord.com/api/webhooks/1340293101171769496/zLP2SsBpkvc1me4AkkzCFo6ZuB-_XvGwP_6gNTbThjAQLN-NfZo0kryIuXL5YuopmuFw"},
         ["Kill Switch"] = {
             ["Limits Reached"] = false,
