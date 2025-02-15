@@ -22,7 +22,7 @@ getgenv().Settings = {
             },
 
         },
-        ["Switch Servers"] = {Active = true, SecondDelay = 7, OnlyPRO = false},
+        ["Switch Servers"] = {Active = true, SecondDelay = 50, OnlyPRO = false},
         ["Webhook"] = {Active = true, URL = "https://discord.com/api/webhooks/1340293101171769496/zLP2SsBpkvc1me4AkkzCFo6ZuB-_XvGwP_6gNTbThjAQLN-NfZo0kryIuXL5YuopmuFw"},
         ["Kill Switch"] = {
             ["Limits Reached"] = false,
