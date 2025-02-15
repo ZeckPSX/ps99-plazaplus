@@ -8,7 +8,7 @@ getgenv().Settings = {
                 ["Love Gift"] = {Price = 150000, InventoryLimit = 99999},
                 ["Tower Stacking Booster"] = {Price = 800000, InventoryLimit = 99999},
                 ["Tower Luck Booster"] = {Price = 200000, InventoryLimit = 99999},
-                ["All Huges"] = {Price = "15m", DetectManipulation = true, AllTypes = true},
+                ["All Huges"] = {Price = "16m", DetectManipulation = true, AllTypes = true},
                 ["Super Shiny Hunter"] = {Price = 1007961497, InventoryLimit = 99999},
                 ["Rainbow Eggs"] = {Price = 1234437764, InventoryLimit = 99999},
                 ["Breakable Mayhem"] = {Price = 950000000, InventoryLimit = 99999},
@@ -17,7 +17,7 @@ getgenv().Settings = {
                 ["Secret Key Upper Half"] = {Price = "1%", InventoryLimit = 99999},
                 ["Void Key Upper Half"] = {Price = "1%", InventoryLimit = 99999},
                 ["Crystal Key Upper Half"] = {Price = "1%", InventoryLimit = 99999},
-                ["Treasure Hideout Key Upper Half"] = {Price = "1%", InventoryLimit = 99999}
+                ["Treasure Hideout Key Upper Half"] = {Price = "1%", InventoryLimit = 99999},
 
             },
 
