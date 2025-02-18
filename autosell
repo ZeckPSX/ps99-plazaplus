@@ -27,7 +27,7 @@ getgenv().Settings = {
         Active = true,
         ["Items"] = {
             ["All Huges"] = {Price = "1%", AllTypes = true},
-            ["Titanic Butterfly"] = {Price = 10300000000", Priority = true},
+            ["Titanic Butterfly"] = {Price = 10300000000, Priority = true},
             ["Hellfire Gift"] = {Class = "Lootbox", Price = 85000, Priority = true},
             ["Love Gift"] = {Class = "Lootbox", Price = 185000, Priority = true},
             ["Global Event Gift"] = {Class = "Lootbox", Price = "1%", Priority = true},
