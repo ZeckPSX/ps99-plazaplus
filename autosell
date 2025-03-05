@@ -6,15 +6,16 @@ getgenv().Settings = {
         ["Items"] = {
             SearchTerminal = {
                 [[ Search Items via Trading Terminal, Custom Keywords NOT supported here. ]],
-                ["Love Gift"] = {Price = 1200000, InventoryLimit = 99999},
-                ["Tower Stacking Booster"] = {Price = 5000000, InventoryLimit = 99999},
-                ["Tower Luck Booster"] = {Price = 1000000, InventoryLimit = 99999},
-
+                ["Nice Egg"] = {Price = "5%", InventoryLimit = 355},
+                ["Huge Night Terror Cat"] = {Price = "50%", UseCosmicValues = true},
             },
-
+            ["All Class: Misc"] = {Price = 5},
+            ["All Rarity: Celestial"] = {Price = "50%"},
+            ["Shiny Rainbow Broomstick Cat"] = {Price = "+2%"},
+            ["All Huges"] = {Price = "15m", DetectManipulation = true, AllTypes = true},
         },
         ["Switch Servers"] = {Active = true, SecondDelay = 7, OnlyPRO = false},
-        ["Webhook"] = {Active = true, URL = "https://discord.com/api/webhooks/1337927509278199913/xX7ABlUElTrLWXbtcHI-4WYe9bBTscJirNOxf4lM5fMaFG3L2LxL2vFHP3prci8oFO8L"},
+        ["Webhook"] = {Active = true, URL = ""},
         ["Kill Switch"] = {
             ["Limits Reached"] = false,
             ["Diamonds Hit: 25m"] = false,
@@ -27,18 +28,17 @@ getgenv().Settings = {
         Active = true,
         ["Items"] = {
             ["All Huges"] = {Price = "1%", AllTypes = true},
-            ["All Titanics"] = {Price = "1%", AllTypes = true},
 
         },
         ["Switch Servers"] = {Active = true, MinuteDelay = 20, OnlyPRO = false},
-        ["Webhook"] = {Active = true, URL = "https://discord.com/api/webhooks/1245580308489961554/jrg1gFnCUSZJqCayag0uolfAhTZigz4nqwVA5cyyzQzWt0Vsg6rZtYJtTs8PSNBdvbe_"},
+        ["Webhook"] = {Active = true, URL = ""},
         ["Kill Switch"] = {
             ["Booth Runout"] = false,
             ["Diamonds Hit: 1b"] = false,
             ["60 Minutes Timer"] = false,
             ["^^^ Switch To Sniping"] = false,
         },
-        ["Diamonds Sendout"] = {Active = false, Username = "jason061gt", Amount = "100b"},
+        ["Diamonds Sendout"] = {Active = false, Username = "", Amount = "100b"},
     },
 
     [[ Thank you for using System Exodus <3! ]]
