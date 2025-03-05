@@ -28,10 +28,7 @@ getgenv().Settings = {
         ["Items"] = {
             ["All Huges"] = {Price = "1%", AllTypes = true},
             ["All Titanics"] = {Price = "1%", AllTypes = true},
-            ["Hellfire Gift"] = {Class = "Lootbox", Price = 85000, Priority = true},
-            ["Love Gift"] = {Class = "Lootbox", Price = 185000, Priority = true},
-            ["Global Event Gift"] = {Class = "Lootbox", Price = "1%", Priority = true},
-            ["Good vs Evil Gift"] = {Class = "Lootbox", Price = "1%", Priority = true},
+
         },
         ["Switch Servers"] = {Active = true, MinuteDelay = 20, OnlyPRO = false},
         ["Webhook"] = {Active = true, URL = "https://discord.com/api/webhooks/1245580308489961554/jrg1gFnCUSZJqCayag0uolfAhTZigz4nqwVA5cyyzQzWt0Vsg6rZtYJtTs8PSNBdvbe_"},
